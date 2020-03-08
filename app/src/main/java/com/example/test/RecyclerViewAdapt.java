@@ -6,16 +6,15 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import androidx.recyclerview.widget.RecyclerView;
-
 import com.example.test.R;
 
 import java.util.ArrayList;
 
-public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapter.ViewHolder> {
+public class RecyclerViewAdapt extends RecyclerView.Adapter<RecyclerViewAdapt.ViewHolder> {
 
     private ArrayList<String> rvData;
 
-    public RecyclerViewAdapter(ArrayList<String> inputData) {
+    public RecyclerViewAdapt(ArrayList<String> inputData) {
         rvData = inputData;
     }
 
